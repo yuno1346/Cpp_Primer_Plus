@@ -1,13 +1,13 @@
-// my first.cpp -- output
+// my first.cpp -- displays a message
 
-#include <iostream>
+#include <iostream>                          //a preprocessor directive
 
-int main()
-{
-    using namespace std;
-    cout << "Welcome to C++ world!!";
-    cout << endl;
-    cout << "dont worry" << endl;
+int main()                                   // function header
+{                                            // start of function body
+    using namespace std;                     //  make definitions visible
+    cout << "come up and C++ me some time."; // message
+    cout << endl;                            // start a new line
+    cout << "You won't regret it!" << endl;  // more output
 
-    return 0;
-}
+    return 0;                                // terminate main()
+}                                            // end of function body
