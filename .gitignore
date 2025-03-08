@@ -5,3 +5,5 @@
 /list.c
 /list.h
 /myfirst
+*.out
+*.o
