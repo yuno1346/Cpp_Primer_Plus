@@ -1,4 +1,4 @@
-// instr2.cpp -- reading more than one word with getline
+// instr3.cpp -- reading more than one word with get() & get()
 #include <iostream>
 
 int main()
@@ -9,9 +9,9 @@ int main()
     char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    cin.getline(name, ArSize); // reads through newline
+    cin.get(name, ArSize).get(); // read string, newline
     cout << "Enter your favorite dessert:\n";
-    cin.getline(dessert, ArSize);
+    cin.get(dessert, ArSize).get();
     cout << "I have some delicious " << dessert;
     cout << " for you, " << name << ".\n";
 
