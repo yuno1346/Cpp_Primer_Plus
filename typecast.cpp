@@ -1,5 +1,6 @@
 // typecast.cpp -- forcing type changes
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -20,5 +21,6 @@ int main()
     cout << int(ch) << endl; // print as int
     cout << "Yes, the code is ";
     cout << static_cast<int>(ch) << endl; // using static_cast
+    
     return 0;
 }

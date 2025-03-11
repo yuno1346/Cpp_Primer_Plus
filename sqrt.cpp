@@ -1,5 +1,4 @@
 //sqrt.cpp -- using the sqrt() function
-
 #include <iostream>
 #include <cmath> //sqrt() function is in the cmath library
 
@@ -15,5 +14,6 @@ int main()
     cout << "That's the equivalent of a square " << side
          << " feet to the side." << endl;
     cout << "How fascinating!" << endl;
+    
     return 0;
 }

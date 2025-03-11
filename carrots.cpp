@@ -1,6 +1,5 @@
 // carrot.cpp -- food processing program
 // uses and displays a variable
-
 #include <iostream>
 
 int main()
@@ -17,5 +16,6 @@ int main()
     cout << endl;
     carrots = carrots - 1; // modify the variable
     cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
+
     return 0;
 }

@@ -1,5 +1,6 @@
 // divide.cpp -- integer division
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -12,5 +13,6 @@ int main()
     cout << 1.e7 / 9.0 << endl;
     cout << "float constants: 1e7f/9.0f = ";
     cout << 1.e7f / 9.0f << endl;
+    
     return 0;
 }

@@ -11,6 +11,7 @@ int main()
     cin >> count;
     simon(count); // call it again
     cout << "Done!" << endl;
+    
     return 0;
 }
 

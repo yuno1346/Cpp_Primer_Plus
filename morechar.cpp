@@ -1,5 +1,6 @@
 // morechar.cpp -- the char type and int type contrasted
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -20,5 +21,6 @@ int main()
     cout.put('!');
 
     cout << endl << "Done" << endl;
+    
     return 0;
 }

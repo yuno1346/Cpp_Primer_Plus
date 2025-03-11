@@ -1,5 +1,6 @@
 // floatnum.cpp -- floating-point types
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -15,5 +16,6 @@ int main()
 
     cout << "mint = " << mint << " and a million mints = ";
     cout << million * mint << endl;
+    
     return 0;
 }

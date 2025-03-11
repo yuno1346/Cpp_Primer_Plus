@@ -1,5 +1,6 @@
 // init.cpp -- type changes on initialization
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -10,5 +11,6 @@ int main()
     cout << "tree = " << tree << endl;
     cout << "guess = " << guess << endl;
     cout << "debt = " << debt << endl;
+    
     return 0;
 }

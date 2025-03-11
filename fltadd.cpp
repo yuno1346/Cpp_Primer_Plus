@@ -1,5 +1,6 @@
 // fltadd.cpp -- precision problems with float
 #include <iostream>
+
 int main()
 {
     using namespace std;
@@ -8,5 +9,6 @@ int main()
 
     cout << "a = " << a << endl;
     cout << "b - a = " << b - a << endl;
+    
     return 0;
 }
