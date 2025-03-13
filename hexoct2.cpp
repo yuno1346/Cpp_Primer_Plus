@@ -1,5 +1,4 @@
 // hextoc2.cpp
-
 #include <iostream>
 
 int main()
