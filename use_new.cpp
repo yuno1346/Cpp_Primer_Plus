@@ -11,7 +11,7 @@ int main()
 
     cout << "nights value = ";
     cout << nights << ": location = " << &nights << endl;
-    cout << "int value = ";
+    cout << "int";
     cout << " value = " << *pt << ": location = " << pt << endl;
 
     double * pd = new double; // allocate memory for a double
