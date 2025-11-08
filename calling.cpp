@@ -19,5 +19,5 @@ int main()
 void simple()
 {
     using namespace std;
-    cout << "I'm bun a simple function.\n";
+    cout << "I'm but a simple function.\n";
 }
